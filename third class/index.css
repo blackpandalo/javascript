@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.yo{
+    /* width: 600px; */
+    height: 100vh;
+    max-width: 600px;
+}
+.hey h2{
+    background-color: green;
+    color: #ffff;
+    height: 6vh;
+}
+.jj{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.hh{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px; 
+    padding-left: 15px;
+}

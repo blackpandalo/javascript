@@ -1,0 +1,159 @@
+/* 
+main{
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+
+section :nth-child(odd){
+    background-color: #eee;
+}
+
+.heading h2{
+    background-color: green;
+    padding: 1rem;
+    color: white;
+}
+.part1{
+    height: 300px;
+}
+.part2{
+    height: 100px;
+} */
+
+
+/* media query */
+/* media query has two important approach, these are :
+-mobile first approach(starting from lowest breakpoint) max-width 375px, 678px, 768px, 992px
+e.g 375-678px, 768px-992px 
+-desktop first approach(starting from highest breakpoint) 
+*/
+/* mobile first  */
+
+/* @media(max-width: 678px){
+    body{
+        background-color: forestgreen !important;
+    }
+}
+@media(min-width: 678px) and (max-width: 786px){
+    body{
+        background-color: rebeccapurple !important;
+    }
+}
+@media(min-width: 786px) and (max-width: 993px){
+    body{
+        background-color: burlywood !important;
+    }
+}
+@media(min-width: 993px){
+    body{
+        background-color: red !important;
+    }
+} */
+
+
+/* desktop first */
+/* @media(max-width: 1000px){
+    body{
+        background-color: blueviolet !important;
+    }
+}
+@media(max-width: 991px)and (min-width: 786px){
+    body{
+        background-color: red !important;
+    }
+}
+@media(max-width: 786px)and (min-width: 500px){
+    body{
+        background-color: pink !important;
+    }
+} */
+
+/* .yo .part2{
+    background-color: blue;
+}
+.yo .part3{
+    background-color: red;
+}
+.yo .part4{
+    background-color: yellow;
+}
+.yo .part5{
+    background-color: teal;
+} */
+
+/* grid */
+.sec{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.part1{
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* .one{
+    background-color: aqua;
+} */
+.two{
+    background-color: pink;
+    background-image: url("../second/image/images.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.two h3{
+    color: red;
+    text-align: center;
+    /* display: block;
+    justify-content: center;
+    align-items: center; */
+
+}
+.two button{
+    color: wheat;
+    text-align: center;
+    padding: 15px 10px;
+    border: none;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.two button:hover{
+    background-color: beige;
+    color: black;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.three{
+    background-color: red;
+}
+
+.hey{
+    background-color: chocolate;
+}
+.yoo{
+    background-color: rebeccapurple;
+}
+.hi{
+    background-color: yellowgreen;
+}
+.za{
+    background-color: grey;
+}
+
+.part2:hover{
+    border: 1px dashed red;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+@media(max-width: 600px){
+    .sec{
+        grid-template-columns: 1fr;
+        /* gap: 1rem; */
+    }
+}

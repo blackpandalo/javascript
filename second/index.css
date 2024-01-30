@@ -1,0 +1,36 @@
+/* *{
+    background-color: aqua;   
+} */
+
+/* p{
+    background-color: whitesmoke;
+} */
+
+/* img{
+    width: 50%;
+    height: 200px;
+} */
+
+.yo{
+    background-color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;
+}
+.hey{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    color: black;
+}
+#my-id{
+    color: blue;
+}
+.z h1{
+  background-color: aqua;
+}
+
